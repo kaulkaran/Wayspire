@@ -1,0 +1,90 @@
+/* Contact Section */
+.contact-section {
+    padding: 4% 1%;
+    background-color: #f7f7f7; /* Adjust according to your design */
+    overflow-x: hidden;
+}
+
+.contact-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2% 4%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Adjust according to your design */
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555; /* Adjust according to your design */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd; /* Adjust according to your design */
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #333; /* Adjust according to your design */
+    outline: none;
+}
+
+.contact-form .submit-button {
+    padding: 0.75rem 2rem;
+    background-color: #333; /* Adjust according to your design */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #555; /* Adjust according to your design */
+}
+
+/* Responsive Styles for Contact Form */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 2% 2%;
+    }
+
+    .contact-heading {
+        font-size: 2rem;
+    }
+
+    .contact-form label {
+        font-size: 0.9rem;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form .submit-button {
+        padding: 0.6rem 1.5rem;
+    }
+}

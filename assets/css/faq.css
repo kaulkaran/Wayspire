@@ -1,0 +1,29 @@
+/* Add to your existing CSS file */
+.faq-section {
+    margin: 4% 10%;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.faq-item {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.faq-answer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+}
